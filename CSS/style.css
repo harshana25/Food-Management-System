@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Kanit',sans-serif;
+}
+.nav-link:hover{
+  background-color: rgba(255, 166, 0);
+  box-shadow: 0 0 5px rgba(255, 166, 0),
+               0 0 20px rgba(255, 166, 0),
+               0 0 60px rgba(255, 166, 0),
+               0 0 150px rgba(255, 166, 0);
+               color: black;
+}        
+.navbar-brand:hover{
+  margin:left;
+  font-weight: bold;
+  color: rgba(255, 166, 0);
+
+}
+#logo-color i img{
+  width:50px;
+}
+
+
+.navbar-nav{
+  margin: 50px;
+}
+.nav-item{
+  margin-left:10px;
+}
+#first{
+  border-bottom:2px solid rgba(255, 166, 0);
+}
+.nav-link{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+#btn1 a{
+  width:200px;
+  height: 35px;
+  margin-top: 20px; 
+  letter-spacing: 3px;
+  font-weight: bold;
+  background-color: rgba(255, 166, 0);
+  border: none;
+  transition: 0.3s ease;
+  cursor: pointer;
+
+}
+#btn1 a:hover{
+
+  background-color: rgba(255, 166, 0);
+  box-shadow: 0 0 5px rgba(255, 166, 0),
+               0 0 20px rgba(255, 166, 0),
+               0 0 60px rgba(255, 166, 0),
+               0 0 150px rgba(255, 166, 0);
+               color: black;  
+}
+.card{
+  box-shadow: 0px 0px 5px black;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin: auto;
+
+}
+.best-card .card:hover{
+  transform: translateY(-15px);
+
+}
+.best-card h1{
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 1px 5px black;
+}
+.best-card p{
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 1px 5px black;
+}
+.container{
+  margin-top: 100px;
+}
+.card-content {
+  font-size: 30px;
+  font-weight: bold;
+}
+.card-content {
+  font-size: 30px;
+  font-weight: bold;
+}
+.card-content {
+  font-size: 30px;
+  font-weight:bold;
+}
+.card-content p{
+  
+  font-weight: bold;
+}
+.banner{
+  font-size: 70px;
+  color: white;
+  font-weight: bold;
+  padding-top: 15px;
+  margin-left: 5px;
+  text-shadow: 2px 1px 5px black;
+}
+/* .watermark {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: rgba(19, 12, 1, 0.9); /* Adjust the opacity as needed 
+  z-index: 9999;}
+ */
+
+/* Cart Css */
